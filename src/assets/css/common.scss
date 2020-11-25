@@ -1,0 +1,59 @@
+$btn-normal-width: 88px;
+$btn-normal-height: 39px;
+$btn-small-width: 56px;
+$btn-small-height: 25px;
+$btn-mini-width: 45px;
+$btn-mini-height: 25px;
+$border-radius-1: 1px;
+$border-radius-2: 2px;
+
+:root {
+  --theme-color: rgba(48, 121, 240, 1);
+  --theme-color-light: rgba(48, 121, 240, .8);
+  --theme-color-lighter: rgba(48, 121, 240, .4);
+  --theme-color-lightest: rgba(48, 121, 240, .3);
+  --menu-bg-color: #112a54;
+  --warn-color: #ef686b;
+  --safe-color: #21b74b;
+  --normal-color: #4b4b4b;
+  --disabled-color: #ccc;
+  --disabled-color-light: #ddd;
+  --form-bg-color: #e7e7e7;
+  --form-header-color: rgba(18, 23, 31, 0.06);
+  --bg-color: rgba(48, 121, 240, .03);
+}
+
+
+.flex-box {
+	display: flex;
+}
+
+.flex-column-list {
+	display: flex;
+	flex-direction: column;
+}
+
+.flex-item {
+	flex: 1;
+}
+
+.app {
+	color: var(--normal-color);
+}
+
+.page-container {
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+	width: 100%;
+}
+
+
+
+.common-main-page-actions-tab {
+	padding: 28px 42px 8px;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.15);
+}
+
+
+

@@ -5780,6 +5780,16 @@ mockjs@^1.1.0:
   dependencies:
     commander "*"
 
+mos-ui@^1.0.20:
+  version "1.0.20"
+  resolved "http://172.25.10.71:4873/mos-ui/-/mos-ui-1.0.20.tgz#92ce1c039f74fa3589d08b1f134947610c706e4f"
+  integrity sha512-T2V1qA4T6ROdS2cyjYn4uLlzyg6f5S7/pOx/9ig9b4+pkJElUWr1jKiwV/WuqMFrEi458dJx4Z+QCPMzbP4+pA==
+  dependencies:
+    core-js "^3.6.5"
+    element-ui "^2.13.2"
+    vue "^2.6.11"
+    yarn "^1.22.10"
+
 move-concurrently@^1.0.1:
   version "1.0.1"
   resolved "https://registry.npm.taobao.org/move-concurrently/download/move-concurrently-1.0.1.tgz#be2c005fda32e0b29af1f05d7c4b33214c701f92"
@@ -9054,6 +9064,11 @@ yargs@^15.0.0:
     which-module "^2.0.0"
     y18n "^4.0.0"
     yargs-parser "^18.1.2"
+
+yarn@^1.22.10:
+  version "1.22.10"
+  resolved "http://172.25.10.71:4873/yarn/-/yarn-1.22.10.tgz#c99daa06257c80f8fa2c3f1490724e394c26b18c"
+  integrity sha1-yZ2qBiV8gPj6LD8UkHJOOUwmsYw=
 
 yorkie@^2.0.0:
   version "2.0.0"

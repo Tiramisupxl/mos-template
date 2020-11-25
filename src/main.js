@@ -3,10 +3,13 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 
-import { Button } from 'element-ui'
-import 'element-ui/lib/theme-chalk/index.css'
+import ElementUI from 'element-ui'
 
-Vue.use(Button)
+import MosUI from 'mos-ui'
+import 'mos-ui/lib/mosUI.css'
+
+Vue.use(ElementUI)
+Vue.use(MosUI)
 
 Vue.config.productionTip = false
 
@@ -15,3 +18,4 @@ new Vue({
     store,
     render: h => h(App)
 }).$mount('#app')
+
