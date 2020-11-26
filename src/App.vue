@@ -1,7 +1,7 @@
 /** 主页 */
 <template>
 		<el-container class="index-con">
-			
+
 				<el-aside class="menu-page" width="248">
 					<el-scrollbar>
 						<leftNav></leftNav>
@@ -12,7 +12,7 @@
             <headerNav></headerNav>
           </el-header>
           <el-main>
-          
+
 					<div class="main-page">
 						<el-breadcrumb
 							separator-class="el-icon-arrow-right"
@@ -23,7 +23,7 @@
 						<router-view class="main-content"></router-view>
 					</div>
 				</el-main>
-				
+
 			</el-container>
 		</el-container>
 </template>
